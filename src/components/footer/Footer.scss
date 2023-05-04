@@ -1,0 +1,131 @@
+@import "../../variables";
+
+.footer-wrapper {
+  width: 100%;
+  margin-top: 10%;
+  position: relative;
+}
+.footer-flex {
+  display: flex;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.contact-item {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  background-color: lighten($color: $primary500, $amount: 45%);
+  margin: 5rem 0 2rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 20px;
+  padding: 2rem 0;
+  box-shadow: 2px 2px 6px 1px black;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 99;
+  position: relative;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    40deg,
+    lighten($color: #7f91a7, $amount: 28%) 0%,
+    rgba(126, 164, 194, 1) 100%
+  );
+
+  h6 {
+    font-size: 1.2rem;
+    font-family: "Alkatra", cursive;
+    color: $primary800;
+    padding: 1rem;
+    margin: auto;
+    white-space: nowrap;
+    border-radius: 10px;
+    text-align: center;
+  }
+  p {
+    color: $primary800;
+    margin: auto;
+    font-size: 1.2rem;
+    font-family: "Alkatra", cursive;
+  }
+  .contact-item-icon {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-flex {
+    justify-content: space-around;
+    gap: 5%;
+    width: 60%;
+  }
+
+  .contact-item {
+    max-width: 350px;
+    margin-top: 5rem;
+
+    h6 {
+      width: 90%;
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    img {
+      width: 80%;
+    }
+  }
+}
+
+.footer-gradient {
+  position: absolute;
+  top: 0;
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    -15deg,
+    rgba(9, 32, 63, 1) 16%,
+    rgba(83, 120, 149, 1) 96%
+  );
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+
+.footer-container {
+  height: 100%;
+  // background-image: linear-gradient(
+  //   135deg,
+  //   transparent 25%,
+  //   rgba(0, 0, 0, 0.05) 25%,
+  //   rgba(0, 0, 0, 0.05) 50%,
+  //   transparent 50%,
+  //   transparent 75%,
+  //   rgba(0, 0, 0, 0.05) 75%,
+  //   rgba(0, 0, 0, 0.05)
+  // );
+  // background-size: 200px 200px;
+  width: 100%;
+  padding-top: 10%;
+  position: relative;
+
+  .copyright {
+    position: absolute;
+    bottom: 5%;
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Alkatra", cursive;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+  }
+}

@@ -1,0 +1,36 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+  --primary800: rgba(9, 32, 63, 1);
+  --primary500: rgba(83, 120, 149, 1);
+  background: lighten($color: #7f91a7, $amount: 28%);
+  overflow: visible;
+
+  h1::selection,
+  h2::selection,
+  h3::selection,
+  h4::selection,
+  h5::selection,
+  h6::selection,
+  p::selection,
+  br::selection,
+  a::selection,
+  img::selection,
+  strong::selection,
+  em::selection,
+  span::selection {
+    background-color: darken($color: $primary800, $amount: 20%);
+    color: $primary500;
+  }
+}

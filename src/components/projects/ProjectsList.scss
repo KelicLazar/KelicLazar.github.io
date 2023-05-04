@@ -1,0 +1,22 @@
+@import "../../variables";
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    min-width: 708px;
+    row-gap: 40px;
+
+    margin: auto;
+  }
+}
