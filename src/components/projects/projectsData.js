@@ -1,5 +1,13 @@
 export const projects = [
   {
+    name: "Privatni Časovi",
+    liveDemo: "https://privatni-casovi-lk.web.app/",
+    gitHub: "https://github.com/KelicLazar/Privatni-Casovi",
+    img: "privatni-casovi.jpg",
+    description:
+      "Our app, built with React and Typescript, is a frontend-only platform that seamlessly connects students in search of additional classes to improve their grades with qualified teachers. ",
+  },
+  {
     name: "Robo Chat",
     liveDemo: "https://effortless-blancmange-3860d1.netlify.app/",
     gitHub: "https://github.com/KelicLazar/RoboChat-RN",
