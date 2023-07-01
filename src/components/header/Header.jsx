@@ -1,3 +1,4 @@
+import AngularIcon from "../skills/AngularIcon";
 import CssIcon from "../skills/CssIcon";
 import HtmlIcon from "../skills/HtmlIcon";
 import JsIcon from "../skills/JsIcon";
@@ -26,6 +27,12 @@ const Header = () => {
               </span>
               <span>
                 <JsIcon />
+              </span>
+              <span>
+                <ReactIcon />
+              </span>
+              <span>
+                <AngularIcon />
               </span>
               <span>
                 <ReactIcon />

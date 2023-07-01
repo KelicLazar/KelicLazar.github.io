@@ -95,6 +95,9 @@
       &:nth-of-type(4) {
         animation: animateSkills 900ms ease-out 2200ms 1 forwards;
       }
+      &:nth-of-type(5) {
+        animation: animateSkills 1000ms ease-out 2400ms 1 forwards;
+      }
     }
     svg {
       height: 2.2rem;

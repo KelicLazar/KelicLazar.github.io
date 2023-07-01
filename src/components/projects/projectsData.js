@@ -5,7 +5,7 @@ export const projects = [
     gitHub: "https://github.com/KelicLazar/Privatni-Casovi",
     img: "privatni-casovi.jpg",
     description:
-      "Our app, built with React and Typescript, is a frontend-only platform that seamlessly connects students in search of additional classes to improve their grades with qualified teachers. ",
+      "App built with React and Typescript, is a frontend-only platform that seamlessly connects students in search of additional classes to improve their grades with qualified teachers. ",
   },
   {
     name: "Robo Chat",
