@@ -4,6 +4,28 @@
   position: relative;
   overflow: hidden;
   padding: 6rem 0;
+
+  // strong {
+  //   color: #d16424;
+  //   background: rgb(244, 175, 134);
+  //   background: linear-gradient(
+  //     17deg,
+  //     rgb(250, 102, 16) 0%,
+  //     rgb(220, 75, 18) 100%
+  //   );
+  //   background-clip: text;
+  //   color: transparent;
+  // }
+  strong.thank-you {
+    background-color: $primary800;
+    background: linear-gradient(
+      30deg,
+      lighten($primary800, 30%) 8%,
+      lighten($primary800, 10%) 73%
+    );
+    background-clip: text;
+    color: transparent;
+  }
   .info-container {
     margin: 1rem;
     width: 90%;

@@ -3,6 +3,7 @@ import CssIcon from "../skills/CssIcon";
 import HtmlIcon from "../skills/HtmlIcon";
 import JsIcon from "../skills/JsIcon";
 import ReactIcon from "../skills/ReactIcon";
+import TypescriptIcon from "../skills/TypescriptIcon";
 import "./Header.scss";
 
 const Header = () => {
@@ -29,13 +30,14 @@ const Header = () => {
                 <JsIcon />
               </span>
               <span>
+                <TypescriptIcon />
+              </span>
+              <span>
                 <ReactIcon />
               </span>
+
               <span>
                 <AngularIcon />
-              </span>
-              <span>
-                <ReactIcon />
               </span>
             </div>
           </div>

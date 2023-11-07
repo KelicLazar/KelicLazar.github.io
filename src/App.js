@@ -16,19 +16,19 @@ function App() {
       {/* <div
         class="badge-base LI-profile-badge"
         data-locale="en_US"
-        data-size="medium"
-        data-theme="light"
-        data-type="VERTICAL"
+        data-size="small"
+        data-theme="dark"
+        data-type="horizontal"
         data-vanity="lazar-kelic-02261323b"
         data-version="v1"
-      >
-        <a
+      > */}
+      {/* <a
           class="badge-base__link LI-simple-link"
           href="https://rs.linkedin.com/in/lazar-kelic-02261323b?trk=profile-badge"
         >
           Lazar Kelic
-        </a>
-      </div> */}
+        </a> */}
+      {/* </div> */}
 
       <Header />
       <About />

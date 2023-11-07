@@ -19,11 +19,12 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ type: "keyframes", duration: 0.6, delayChildren: true }}
         >
-          Hello! My name is Lazar, and I am a{" "}
-          <strong>Front-end Developer</strong> currently studying media design
-          in education. I have gained my skills through online courses and
-          personal projects, and I have been practicing front-end development
-          for more then two years.
+          As a <strong>Bachelor of Arts in Media Design in Education</strong>{" "}
+          and a self-taught
+          <strong> Front-end Developer</strong>, I have honed my skills over the
+          past few years through online courses, personal projects, and several
+          freelance jobs, all of which I completed to the utmost satisfaction of
+          my clients.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 100 }}
@@ -31,13 +32,17 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ type: "keyframes", duration: 0.7 }}
         >
-          As a front-end developer, my high level of proficiency in{" "}
-          <strong>HTML, CSS, JavaScript</strong> and <strong>React </strong>
-          enables me to design engaging and user-friendly interfaces for
-          websites that are visually appealing and intuitive to navigate.
-          <br /> Additionally, I have experience working with{" "}
-          <strong>React-Native, MongoDB </strong> and <strong> Node.js</strong>,
-          which has given me insights into mobile and back-end development.
+          In addition to my foundational skills in{" "}
+          <strong>HTML, CSS, JavaScript</strong> and
+          <strong> React</strong>, I've been immersing myself in learning
+          <strong> Angular</strong> and <strong>Flutter</strong>, further
+          expanding my tech stack. What's more, I've made an active transition
+          from <strong>JavaScript</strong> to <strong>TypeScript</strong>,
+          ensuring a more robust and scalable approach in my projects. My
+          experience extends to <strong>React-Native, MongoDB, MySQL</strong>{" "}
+          and <strong>Node.js</strong>. This diversified skill set equips me
+          with a comprehensive perspective on both mobile and back-end
+          development.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 100 }}
@@ -45,8 +50,10 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ type: "keyframes", duration: 0.8 }}
         >
-          I actively participate in coding challenges on platforms like{" "}
+          My commitment to growth goes beyond just learning new frameworks. I
+          regularly participate in coding challenges on platforms like
           <strong>
+            {" "}
             <a
               href="https://www.codewars.com/users/KelicLazar/completed"
               target="_blank"
@@ -75,7 +82,7 @@ const About = () => {
           and I strive to bring that mindset to every collaboration. Please feel
           free to explore my work and contact me if you have any questions or
           project inquiries. <br></br>
-          <strong>
+          <strong className="thank-you">
             <em>Thank you for visiting!</em>
           </strong>
         </motion.p>

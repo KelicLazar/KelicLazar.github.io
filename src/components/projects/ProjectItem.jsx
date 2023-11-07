@@ -27,6 +27,7 @@ const ProjectItem = (props) => {
             Demo <Link size={24} style={{ verticalAlign: "middle" }} />
           </a>
         </a>
+
         <a href={props.gitHub} className="gitHub-container">
           <a
             className="gitHub"

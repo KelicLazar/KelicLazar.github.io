@@ -1,5 +1,45 @@
 export const projects = [
   {
+    name: "Crypto Mining",
+    liveDemo: "https://crypto-miners-demo.web.app/product.html",
+    img: "crypto.jpg",
+    gitHub: "https://github.com/KelicLazar",
+    description:
+      "A freelance project  brought to life from a Figma design, using HTML, CSS, and JavaScript for a smooth and responsive user experience.",
+  },
+  {
+    name: "Workout Exercises",
+    liveDemo: "https://test-project-3b324.web.app/",
+    img: "exercise.jpg",
+    gitHub: "https://github.com/KelicLazar",
+    description:
+      "Freelance project crafted with complete creative freedom and trust from the client, using HTML, CSS, and JavaScript.",
+  },
+  {
+    name: "Anagram Solver",
+    liveDemo: "https://anagram-word-solver.com/",
+    img: "anagram.jpg",
+    gitHub: "https://github.com/KelicLazar",
+    description:
+      "Freelance project developed using HTML, CSS, and JavaScript to aid enthusiasts in solving Scrabble and similar word-oriented games.",
+  },
+  {
+    name: "Timezone Converter",
+    liveDemo: "https://time-zone-convert.com/",
+    img: "timezone.jpg",
+    gitHub: "https://github.com/KelicLazar",
+    description:
+      "Freelance project built with React, designed to assist users in converting timezones across different cities, aiding in trip planning and travel coordination.",
+  },
+  {
+    name: " BMI Calculator",
+    liveDemo: "https://www.bmi-calc.com/",
+    img: "bmi.jpg",
+    gitHub: "https://github.com/KelicLazar",
+    description:
+      "Freelance project crafted using HTML, CSS, and JavaScript, this BMI calculator offers a user-friendly platform for individuals to accurately determine their body mass index.",
+  },
+  {
     name: "Privatni Časovi",
     liveDemo: "https://privatni-casovi-lk.web.app/",
     gitHub: "https://github.com/KelicLazar/Privatni-Casovi",
